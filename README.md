@@ -26,7 +26,7 @@
 1. **Furniture品类是利润黑洞**：Tables子品类累计亏损$17,000+，根源是高达30%+的折扣
 2. **Central地区问题突出**：尤其是德克萨斯州和伊利诺伊州，贡献了最大的负利润
 3. **9月旺季利润反常下降**：促销期间高折扣低利润产品占比过高
-4. **18.5%的Champion客户贡献了62%的收入**：仅158人撑起大半江山
+4. **占比少的Champion客户贡献了大多数的收入**：仅158人撑起大半江山
 5. **35%的客户处于流失风险中**：At Risk群体需立即触达
 
 ## 🛠 技术栈
@@ -38,13 +38,10 @@
 ## 📁 项目结构
 
 ├── notebooks/superstore_analysis.ipynb  
-├── images/                            
-├── report/analysis_report.md           
+├── eight images                                
 └── data/Sample_Superstore.csv        
 
 ## 🚀 快速复现
-
-\```bash
 # 1. 克隆仓库
 git clone https://github.com/Wanyiyi1991/retail-business-health-diagnosis.git
 cd retail-business-health-diagnosis
@@ -54,15 +51,12 @@ pip install -r requirements.txt
 
 # 3. 启动 Jupyter
 jupyter notebook notebooks/superstore_analysis.ipynb
-\```
 
 ## 📈 关键可视化
 
 ### 四象限客户价值分布
-![RFM四象限]
 
 ### 利润黑洞：子品类分析
-![子品类利润]
 
 ## 📝 业务建议（摘要）
 
